@@ -1,0 +1,130 @@
+.admin-register-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0b0f19;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.admin-register-card {
+    background: rgba(18, 24, 38, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 40px 35px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 420px;
+    box-sizing: border-box;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+.icon-container {
+    width: 60px;
+    height: 60px;
+    background: rgba(0, 162, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px auto;
+    border: 1px solid rgba(0, 162, 255, 0.3);
+}
+
+.admin-icon {
+    width: 28px;
+    height: 28px;
+    color: #00bfff;
+}
+
+.admin-register-card h2 {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+}
+
+.subtitle {
+    color: #9aa0ac;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.error-message {
+    color: #ff6b6b;
+    background-color: rgba(255, 107, 107, 0.1);
+    border: 1px solid rgba(255, 107, 107, 0.3);
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 16px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 14px 16px;
+    background: rgba(26, 34, 52, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 15px;
+    box-sizing: border-box;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.input-group input::placeholder {
+    color: #727a8c;
+}
+
+.input-group input:focus {
+    border-color: #00bfff;
+    box-shadow: 0 0 8px rgba(0, 191, 255, 0.3);
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #00bfff, #007bff);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);
+    transition: opacity 0.2s ease;
+}
+
+.submit-btn:hover {
+    opacity: 0.9;
+}
+
+.redirect-text {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #8c93a3;
+}
+
+.redirect-text a {
+    color: #00bfff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.redirect-text a:hover {
+    text-decoration: underline;
+}

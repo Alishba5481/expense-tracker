@@ -1,0 +1,87 @@
+/* Glassmorphism Container */
+.login-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 450px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  padding: 40px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37), inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+  animation: fadeIn 0.8s ease-out;
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.login-header h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  background: linear-gradient(to right, #00d2ff, #7b2ff7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.login-header p {
+  color: #a0a0b8;
+  font-size: 14px;
+}
+
+/* Options (Forgot Password) */
+.form-options {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -10px;
+  margin-bottom: 24px;
+}
+
+.forgot-link {
+  color: #00d2ff;
+  font-size: 13px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.forgot-link:hover {
+  color: #7b2ff7;
+  text-decoration: underline;
+}
+
+/* Footer (Register Link) */
+.form-footer {
+  text-align: center;
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.form-footer p {
+  color: #a0a0b8;
+  font-size: 14px;
+}
+
+.auth-link {
+  color: #00d2ff;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 4px;
+  transition: all 0.3s ease;
+}
+
+.auth-link:hover {
+  color: #7b2ff7;
+  text-decoration: underline;
+}
