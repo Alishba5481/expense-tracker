@@ -9,6 +9,8 @@ A full-stack web application to track daily expenses, with separate user and adm
 
 # Tech Stack
 -Frontend: React, Vite, CSS
+
 -Backend: Node.js, Express
+
 -Database: MySQL 
 
